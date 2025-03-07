@@ -1,14 +1,13 @@
-いったん特定の個所をPCで長押しするとバーが進む感じで作っております．該当の式は以下の通り．
-OnPointerDown, OnPointerUp, OnPointerExit, OnLongPressComplete, OnActionSelected
+いったん特定の個所をPCで長押しするとバーが進む感じで作っております．基本シェダーで制御できるんちょ．
 
 Shaderに関して
   NiER:Automataゲーム画面から，adobeカラーパレットで抽出．透明度の調整が重要．
   Inner color: #C6C5B1 
   Outer Color: #917E6E
-  Glowに関しても実装をしてみました．
+  Glowに関しても実装をしてみました．でもなんか色合いがびみょー．
 
 C#に関して．
-GPTを一部使用しました．**Particleを作ってみました．**
+GPTを一部使用しました．**Particleを作ってみました．**　←機能しているのか！？
 
 Particle Prefab
   新規のImage UIオブジェクトを作成
